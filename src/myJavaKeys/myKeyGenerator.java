@@ -34,6 +34,8 @@ public class myKeyGenerator {
 		
 		kSpec = (RSAPublicKeySpec) kf.getKeySpec(kp.getPublic(), RSAPublicKeySpec.class);
 		
+		System.out.println("Done with key Generation");
+		
 		
 	}
 
